@@ -70,7 +70,7 @@ const Ticker = ({ value, started, onTimeUp }) => {
               {getTime()}
             </span>
             <button className="control" onClick={() => setPaused(!paused)}>
-              <div className={`button ${paused ? "paused" : ""}`} />{" "}
+              <div className={`button ${paused ? "paused" : ""}`} />
             </button>
           </div>
           <div className="ticker__interval">
