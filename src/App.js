@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./styles.scss";
 
 const CRITICAL_TIME = 20;
-const ONE_MINUTE = 10;
+const ONE_MINUTE = 60;
 const getFixed = val => (val / 100).toFixed(2).split(".")[1];
 
 const Ticker = ({ value, started, onTimeUp }) => {
