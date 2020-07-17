@@ -100,7 +100,7 @@ const Ticker = ({ value, started, onTimeUp }) => {
       )}
       {!!started && amount === 0 && (
         <div className="ticker__time">
-          <span className="red">{getTime(value * ONE_MINUTE)}</span>
+          <span>{getTime(value * ONE_MINUTE)}</span>
           <button
             className="control"
             onClick={() => {
