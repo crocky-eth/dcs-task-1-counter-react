@@ -1,2 +1,5 @@
 # dcs-task-1-counter-react
-Created with CodeSandbox
+
+## Screenshots
+
+https://www.dropbox.com/sh/6xhvtvlu516bt0o/AADhtU6eoxWO4TlhcOKamdZAa?dl=0
