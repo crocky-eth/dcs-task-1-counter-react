@@ -128,7 +128,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>DCS_TASK_1: Countdown (React)</h1>
-      <h2>React application with controls to</h2>
+      <p>React application with controls to</p>
       <ul>
         <li>add time</li>
         <li>speed up / slow down</li>
